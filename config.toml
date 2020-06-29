@@ -16,8 +16,8 @@ name = "Syllabus"
 url = "/syllabus"
 weight = 2
 [[menu.main]]
-name = "Sessions"
-url = "/sessions"
+name = "Course"
+url = "/course"
 weight = 3
 [[menu.main]]
 name = "About"
@@ -29,7 +29,7 @@ author = "Larry Vincent"
 authorIcon = "lv-signature-circle.png"
 titleEmoji = ":tada:"
 twitter = "@lvincent"
-mainSections = ["sessions"]
+mainSections = ["course"]
 
 [privacy.googleAnalytics]
 anonymizeIP = true

@@ -3,7 +3,7 @@
 	  {{ partial "header.html" . }}
 	  {{ partial "breadcrumb.html" . }}
   <section id="main" class="course-container frontpage">
-	  {{ $hero := print .Page.RelPermalink .Params.hero }}
+	  {{ $hero := print .Params.hero }}
 	  {{ with .GetPage $hero }}
 	  <div class="hero-image">
 	  	  {{ with .Params.hero_image }}<img src="{{ . }}" />{{ end }}
@@ -19,14 +19,14 @@
 	  
 	  <div class="featured-content ruler">
 		  <div class="fp-cell">
-		  {{ $mlp := print .Page.RelPermalink .Params.mid_left }}
+		  {{ $mlp := print .Params.mid_left }}
 		  {{ with .GetPage $mlp }}
 		  {{ partial "session_summary.html" . }}
 		  {{ end }}
 		  </div>
 	  </div>
 	  
-	  {{ $mcp := print .Page.RelPermalink .Params.mid_center }}
+	  {{ $mcp := print .Params.mid_center }}
 	  {{ with .GetPage $mcp }}
 	  <div class="viewing ruler">
 		  <div class="fp-cell left-border">
@@ -35,7 +35,7 @@
 	  </div>
 	  {{ end }}	  	
 	  
-	  {{ $mrp := print .Page.RelPermalink .Params.mid_right }}
+	  {{ $mrp := print .Params.mid_right }}
 	  {{ with .GetPage $mrp }}
 	  <div class="reading ruler">
 		  <div class="fp-cell left-border">
@@ -45,13 +45,13 @@
 	   {{ end }}
 	  <div class="assignment ruler">
 		  <div class="fp-cell">
-		{{ $blp := print .Page.RelPermalink .Params.bot_left }}
+		{{ $blp := print .Params.bot_left }}
 		{{ with .GetPage $blp }}
 		  {{ partial "session_summary.html" . }}
 		{{ end }}
 		</div>
 	  </div>
-		{{ $brp := print .Page.RelPermalink .Params.bot_right }}
+		{{ $brp := print .Params.bot_right }}
 		{{ with .GetPage $brp }}
 	  <div class="contribution ruler">
 		  <div class="fp-cell left-border">
