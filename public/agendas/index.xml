@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agendas on The Customer Class</title>
+    <link>https://www.thecustomerclass.com/agendas/</link>
+    <description>Recent content in Agendas on The Customer Class</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2020 Laurence Vincent.</copyright>
+    <lastBuildDate>Mon, 22 Jun 2020 20:00:07 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.thecustomerclass.com/agendas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Course Introduction</title>
+      <link>https://www.thecustomerclass.com/agendas/week-01/</link>
+      <pubDate>Mon, 22 Jun 2020 20:00:07 -0700</pubDate>
+      
+      <guid>https://www.thecustomerclass.com/agendas/week-01/</guid>
+      <description>Welcome to MKT512. Our first week is dedicated to onboarding. We will explore the structure of the course, learn about the tools to navigate it, and establish the guiding philosophy of the content. This site will provide you with everything you need to know each week.
+We have four learning objectives this week:
+ Demonstrate how customer marketing differs from broader marketing disciplines, such as consumer marketing Learn how to use discovery-based inquiry to gather customer insights Distinguish how data drives customer marketing decisions Create a visualization of relevant data  How I teach the course This Site I created this site to be an easy guide to each week of the course.</description>
+    </item>
+    
+  </channel>
+</rss>

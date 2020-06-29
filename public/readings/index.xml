@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on The Customer Class</title>
+    <link>https://www.thecustomerclass.com/readings/</link>
+    <description>Recent content in Readings on The Customer Class</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2020 Laurence Vincent.</copyright>
+    <lastBuildDate>Mon, 22 Jun 2020 20:00:07 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.thecustomerclass.com/readings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.thecustomerclass.com/readings/session-1-reading/</link>
+      <pubDate>Mon, 22 Jun 2020 20:00:07 -0700</pubDate>
+      
+      <guid>https://www.thecustomerclass.com/readings/session-1-reading/</guid>
+      <description> BKN Ch 1-3 WG 2, 3 &amp;amp; 27 Spotify Case  </description>
+    </item>
+    
+  </channel>
+</rss>

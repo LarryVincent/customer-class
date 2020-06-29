@@ -4,7 +4,7 @@ date: 2020-06-22T20:00:07-07:00
 teaser: "Welcome to MKT512. Our first week is dedicated to onboarding. We will explore the structure of the course, learn about the tools to navigate it, and establish the guiding philosophy of the content. This site will provide you with everything you need to know each week."
 linkable: true
 hero: true
-hero_image: "/images/mkt512-welcome.png"
+hero_image: "images/mkt512-welcome.png"
 slug: "Week 01"
 link_title: "Review learning objectives"
 ---
