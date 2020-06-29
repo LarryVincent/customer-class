@@ -1,11 +1,11 @@
-baseURL = "https://thecustomerclass.com"
+baseURL = "https://www.thecustomerclass.com"
 copyright = "© 2020 Laurence Vincent."
 description = "Home of Larry Vincent's MBA Course on Customer Insights and Analysis at USC Marshall School of Business"
 enableEmoji = false
 googleAnalytics = "UA-XXXXXXXXX-X"
 languageCode = "en-us"
 theme = "hugo-theme-basic"
-title = "Laurence Vincent"
+title = "The Customer Class"
 
 [Permalinks]
 post = "essays/:slug"
