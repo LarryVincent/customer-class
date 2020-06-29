@@ -6,7 +6,7 @@
 	  {{ $hero := print .Params.hero }}
 	  {{ with .GetPage $hero }}
 	  <div class="hero-image">
-	  	  {{ with .Params.hero_image }}<img src="{{ . }}" />{{ end }}
+	  	  {{ with .Params.hero_image }}<img src="{{ . | relURL }}" />{{ end }}
 	  </div>
 	  <div class="hero-content">
 	  	{{ with .Params.slug }}<p class="format">{{ . }}</p>{{ end }}
