@@ -1,6 +1,7 @@
 {{ partial "head.html" . }}
 <body>
 	  {{ partial "header.html" . }}
+	  <div class="bg">
 	  {{ partial "breadcrumb.html" . }}
   <section id="main" class="course-container frontpage">
 	  {{ $hero := print .Params.hero }}
@@ -60,6 +61,6 @@
 	  </div>
 		{{ end }}	  
   </section>
-
+</div>
 </body>
 </html>

@@ -23,6 +23,11 @@
 	box-sizing: border-box;
 }
 
+body {
+	min-height: 100%;
+	background-color: var(--faint-gray);
+}
+
 section,
 article {
 	display: inline;
@@ -229,5 +234,5 @@ a.navbar-item:hover,
 /* FOOTER */
 
 footer {
-	background-color: var(--faint-gray);	
+	background-color: var(--faint-gray);
 }

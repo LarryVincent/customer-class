@@ -3,37 +3,36 @@
 <body itemscope itemtype="http://schema.org/Article" >
 
 	{{ partial "header.html" . }}
-  {{ partial "breadcrumb.html" . }}
+	<div class="bg">
+		{{ partial "breadcrumb.html" . }}
 	
-
-	<section>
-		<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
-		<article class="container">
+		<section>
+			<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
+			<article class="container">
 		
-			<div class="head-matter">
-				<h1>{{ .Title }}</h1>
-				{{ if (not (isset .Params "show_author")) | or (eq .Params.show_author true) }}
-				{{ partial "author.html" . }}
-				<div class="meta-block">
-					<p class="meta-left"><span class="meta">Published&nbsp;&nbsp;&nbsp;</span><time>{{ .PublishDate.Format "January 2, 2006" }}</time></p>
-					<p class="meta-right"><span class="meta">Subject&nbsp;&nbsp;&nbsp;</span>
-						<span>{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</span>
-						{{ end }}
-					</p>
-				</div>
-				{{ if (not (isset .Params "show_social")) | or (eq .Params.show_social true )}}
-				<div class="social-links">
-				{{ partial "share-buttons.html" . }}					
-				</div>
-			{{ end }}
-			</div>
-			<div class="main-content">
-				{{ .Content }}
+				<div class="head-matter">
+					<h1>{{ .Title }}</h1>
+					{{ if (not (isset .Params "show_author")) | or (eq .Params.show_author true) }}
+					{{ partial "author.html" . }}
+					<div class="meta-block">
+						<p class="meta-left"><span class="meta">Published&nbsp;&nbsp;&nbsp;</span><time>{{ .PublishDate.Format "January 2, 2006" }}</time></p>
+						<p class="meta-right"><span class="meta">Subject&nbsp;&nbsp;&nbsp;</span>
+							<span>{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</span>
+							{{ end }}
+						</p>
+					</div>
+					{{ if (not (isset .Params "show_social")) | or (eq .Params.show_social true )}}
+					<div class="social-links">
+						{{ partial "share-buttons.html" . }}					
+					</div>
+					{{ end }}
+					<div class="main-content">
+					{{ .Content }}
 			
-			</div>
-		</article>
-	</section>
-
+				</div>
+			</article>
+		</section>
+	</div>
 	{{ partial "footer.html" . }}
 </body>
 </html>
