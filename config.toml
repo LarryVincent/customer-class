@@ -29,7 +29,7 @@ author = "Larry Vincent"
 authorIcon = "lv-signature-circle.png"
 titleEmoji = ":tada:"
 twitter = "@lvincent"
-mainSections = ["course"]
+mainSections = ["sessions"]
 
 [privacy.googleAnalytics]
 anonymizeIP = true
@@ -44,5 +44,4 @@ privacyEnhanced = true
 
 [taxonomies]
 category = "categories"
-series = "series"
 tag = "tags"
