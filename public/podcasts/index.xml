@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcasts on The Customer Class</title>
+    <link>https://www.thecustomerclass.com/podcasts/</link>
+    <description>Recent content in Podcasts on The Customer Class</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2020 Laurence Vincent.</copyright>
+    <lastBuildDate>Mon, 22 Jun 2020 20:50:56 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.thecustomerclass.com/podcasts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Becoming a Customer Advocate</title>
+      <link>https://www.thecustomerclass.com/podcasts/podcast-1/</link>
+      <pubDate>Mon, 22 Jun 2020 20:50:56 -0700</pubDate>
+      
+      <guid>https://www.thecustomerclass.com/podcasts/podcast-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

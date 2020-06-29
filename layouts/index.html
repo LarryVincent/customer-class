@@ -1,8 +1,7 @@
 {{ partial "head.html" . }}
 <body>
 	{{ partial "header.html" . }}
-	{{ $pages := where .Site.Pages "Params.type" "course" }}
-	{{ range first 1 $pages }}	
+	{{ range first 1 (where site.RegularPages "Type" "in" site.Params.mainSections) }}	
 	<section id="main" class="course-container frontpage">
 		{{ $hero := print .Params.hero }}
 		{{ with .GetPage $hero }}

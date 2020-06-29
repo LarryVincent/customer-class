@@ -12,7 +12,6 @@ mid_center = "videos/session-1-viewing.md"
 mid_right = "readings/session-1-reading.md"
 bot_left = "assignments/assignment-1.md"
 bot_right = "action-items/case-poll-4.md"
-draft = true
 +++
 
 Welcome to MKT512. Our first week is dedicated to onboarding. We will explore the structure of the course, learn about the tools we will use to navigate it, and establish the guiding philosophy of the content. This site will provide you with everything you need to know each week.
