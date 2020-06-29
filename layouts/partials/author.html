@@ -1,0 +1,6 @@
+<p class="byline">
+	<span class="visual-sig"><img src="/images/{{ with .Site.Params.authorIcon }}{{ . }}{{ end }}" /></span>
+	<span class="author">{{ with .Params.author }}{{ . }}{{ else }}{{ with .Site.Params.author }}{{ . }}{{ end }}{{ end }}</span>
+	<span class="twitter-handle">{{ with .Params.twitter }}
+		<a href="https://twitter.com/{{ . }}">{{ . }}</a>{{ else }}{{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ . }}</a>{{ end }}{{ end }}</span>
+</p>

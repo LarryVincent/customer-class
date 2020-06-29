@@ -1,0 +1,58 @@
+	  {{ partial "breadcrumb.html" . }}
+  <section id="main" class="course-container frontpage">
+	  {{ with .GetPage .hero }}
+	  <div class="hero-image">
+	  	  {{ with .Params.hero_image }}<img src="{{ . }}" />{{ end }}
+	  </div>
+	  <div class="hero-content">
+	  	{{ with .Params.slug }}<p class="format">{{ . }}</p>{{ end }}
+		<a href="{{ .Permalink }}">{{ with .Title }}<h1>{{ . }}</h1>{{ end }}</a>
+		{{ with .Params.teaser }}<p>{{ . }}</p>{{ end }}
+		<a href="{{ .Permalink }}" class="read-more">
+			<p><i class="fas fa-arrow-right"></i>&nbsp;&nbsp;{{ with .Params.link_title }}{{ . }}{{ else }}Read more{{ end }}</p></a>
+	  </div>
+	  {{ end }}
+	  
+	  <div class="featured-content ruler">
+		  <div class="fp-cell">
+		  {{ with .GetPage .mid_left }}
+		  {{ partial "session_summary.html" . }}
+		  {{ end }}
+		  </div>
+	  </div>
+	  
+	  {{ with .GetPage .mid_center }}
+	  <div class="viewing ruler">
+		  <div class="fp-cell left-border">
+		  {{ partial "session_summary.html" . }}
+		  </div>
+	  </div>
+	  {{ end }}	  	
+	  
+	  {{ with .GetPage .mid_right }}
+	  <div class="reading ruler">
+		  <div class="fp-cell left-border">
+		  {{ partial "session_summary.html" . }}
+		  </div>
+	  </div>
+	   {{ end }}
+	  <div class="assignment ruler">
+		  <div class="fp-cell">
+		{{ with .GetPage .bot_left }}
+		  {{ partial "session_summary.html" . }}
+		<a href="{{ .Permalink }}" class="read-more">
+			<p><i class="fas fa-arrow-right"></i>&nbsp;&nbsp;{{ with .Params.link_title }}{{ . }}{{ else }}Read more{{ end }}</p></a>
+		{{ end }}
+		</div>
+	  </div>
+		{{ with .GetPage .bot_right }}
+	  <div class="contribution ruler">
+		  <div class="fp-cell left-border">
+		  {{ partial "session_summary.html" . }}
+	  </div>
+	  </div>
+		{{ end }}	  
+  </section>
+
+</body>
+</html>

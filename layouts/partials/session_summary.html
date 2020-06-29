@@ -1,0 +1,8 @@
+<div class="course-summary">
+	<p class="format">
+		<i class="{{ with .Params.content_indicator }}{{ . }}{{ end }}"></i>
+		<span>{{ with .Params.content_type }}{{ . }}{{ end }}</span>
+	</p>
+	<a href="{{ .Permalink }}"><h2>{{ with .Title }}{{ . }}{{ end }}</h2></a>
+		{{ if .Params.teaser }}<p>{{ .Params.teaser }}</p>{{ else }}{{ .Content }}{{ end }}
+</div>

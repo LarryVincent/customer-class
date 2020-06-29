@@ -1,0 +1,16 @@
+<footer>
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+	<div class="footer">
+		<div class="teaser">
+			<h2>Recently...</h2>
+			{{ range first 1 (after 1 $pages) }}
+			<h3 class="footer-heading"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+			{{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+			{{ end }}
+		</div>
+		<div class="privacy">
+			<p><span>Privacy Policy</span><span>{{ with .Site.Copyright }}{{ . }}{{ end }}</span></p>		
+		</div>
+	</div>
+</footer>
+	<script src="{{ .Site.BaseURL }}js/script.js"></script>

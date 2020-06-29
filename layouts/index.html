@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+<body>
+	{{ partial "header.html" . }}
+	{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections  }}
+	
+	{{ range first 1 $pages }}	
+	
+	<section id="main" class="course-container">
+
+		  <h1>{{ .Title }}</h1>
+		  
+	</section>
+
+	{{ end }}
+	{{ partial "footer.html" . }}
+</body>
+</html>
+

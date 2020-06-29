@@ -1,0 +1,48 @@
+baseURL = "https://thecustomerclass.com"
+copyright = "© 2020 Laurence Vincent."
+description = "Home of Larry Vincent's MBA Course on Customer Insights and Analysis at USC Marshall School of Business"
+enableEmoji = false
+googleAnalytics = "UA-XXXXXXXXX-X"
+languageCode = "en-us"
+theme = "hugo-theme-basic"
+title = "Laurence Vincent"
+
+[Permalinks]
+post = "essays/:slug"
+session = "sessions/:slug"
+
+[[menu.main]]
+name = "Syllabus"
+url = "/syllabus"
+weight = 2
+[[menu.main]]
+name = "Sessions"
+url = "/sessions"
+weight = 3
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 1
+
+[params]
+author = "Larry Vincent"
+authorIcon = "lv-signature-circle.png"
+titleEmoji = ":tada:"
+twitter = "@lvincent"
+mainSections = ["course"]
+
+[privacy.googleAnalytics]
+anonymizeIP = true
+respectDoNotTrack = true
+useSessionStorage = true
+
+[privacy.twitter]
+enableDNT = true
+
+[privacy.youtube]
+privacyEnhanced = true
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
