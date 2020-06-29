@@ -6,6 +6,7 @@ googleAnalytics = "UA-XXXXXXXXX-X"
 languageCode = "en-us"
 theme = "hugo-theme-basic"
 title = "The Customer Class"
+relativeURLs = true
 
 [Permalinks]
 post = "essays/:slug"
