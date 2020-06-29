@@ -4,6 +4,8 @@
 	--primary-font-weight: 400;
 	--primary-color: #333;
 	--ink: #2D2D2D;
+	--squid: #191818;
+	--squid-ink: #1E1C1C;
 	--paper: #efefef;
 	--dark-gray: #5E5E5E;
 	--mid-gray: #4C4C4C;
@@ -29,7 +31,7 @@ article {
 /* HEADER */
 
 .header {
-	background-color: var(--apple-blossom);
+	background-color: var(--squid-ink);
 	margin: 0;
 	padding: 0;
 	min-height: 105px;
@@ -48,7 +50,8 @@ article {
 @media only screen and (min-width: 600px) {
 	
 	.header {
-		min-height: 140px;
+		height: 100%;
+		padding: 1em 0;
 	}
 	
 	.branding {
@@ -113,7 +116,6 @@ article {
 		display: flex;
 		justify-content: space-between;
 		padding-bottom: 0;
-		height: 90px;
 		align-items: center;
 	}
 	
@@ -136,13 +138,15 @@ article {
 		
     }
     .logo {
-		max-width: 200px;
-		max-height: 60px;
+		max-width: 220px;
 		margin-left: 3em;
+		margin-top: 0;
     }
+	
    .navbar-toggle {
        display: none;
     }
+	
     .logo:hover,
     .nav-links:hover {
         color: rgba(255, 255, 255, 1);
