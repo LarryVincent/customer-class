@@ -231,7 +231,7 @@ ul.breadcrumbs {
 	padding-top: 10px;
 	padding-bottom: 12px;
 /*	background-color: #741E25; */
-	background-color: var(--faded-blossom);
+	border-bottom: 1px solid var(--faint-gray);
 }
 
 ul.breadcrumbs li,
@@ -242,7 +242,7 @@ ul.breadcrumbs li a {
 	font-size: 10px;
 	font-weight: 500;
 	letter-spacing: 2px;
-	color: #efefef;
+	color: var(--light-gray);
 }
 
 ul.breadcrumbs li:before {
@@ -251,13 +251,16 @@ ul.breadcrumbs li:before {
   content: "\f054";
   padding-left: 2px;
   padding-right: 2px;
-  color: rgba(250,250,250, .7);
+  color: var(--light-gray);
 }
 
 ul.breadcrumbs li:first-child:before {
 	content: "";
 }
 
+ul.breadcrumbs li a:hover {
+	color: var(--link-color);
+}
 
 
 .head-matter {
