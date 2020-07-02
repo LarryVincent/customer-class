@@ -10,6 +10,7 @@ title = "The Customer Class"
 [Permalinks]
 post = "essays/:slug"
 session = "sessions/:slug"
+legal = "legal/:slug"
 
 [[menu.main]]
 name = "Syllabus"

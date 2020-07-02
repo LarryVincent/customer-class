@@ -8,6 +8,7 @@ show_links: true
 ---
 
 * [A Guided Tour of the Course](https://youtu.be/SWxoJqTqo08)
-* [Introduction to R](https://youtu.be/SWxoJqTqo08)
 * [Introduction to Customer-Centric Marketing](https://youtu.be/SWxoJqTqo08)
-* [Using RMarkdown](https://youtu.be/SWxoJqTqo08)
+* [Story-Driven Discovery]("/")
+* [Introduction to R](https://youtu.be/SWxoJqTqo08)
+* [Visualizing Data](https://youtu.be/SWxoJqTqo08)

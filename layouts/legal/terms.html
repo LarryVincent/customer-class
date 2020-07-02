@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+<body>
+	{{ partial "header.html" . }}
+	<h2>Larry Is Magnificent</h2>
+	
+<div name="termly-embed" data-id="d9b4988a-74e5-4578-a4a7-3b0f5b54c491" data-type="iframe"></div>
+<script type="text/javascript">(function(d, s, id) {
+  var js, tjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://app.termly.io/embed-policy.min.js";
+  tjs.parentNode.insertBefore(js, tjs);
+}(document, 'script', 'termly-jssdk'));</script>
+
+{{ partial "footer.html" . }}
+</body>
+</html>
