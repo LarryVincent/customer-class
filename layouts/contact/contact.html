@@ -1,0 +1,37 @@
+{{ partial "head.html" . }}
+
+<body itemscope itemtype="http://schema.org/Article" >
+
+	{{ partial "header.html" . }}
+	<div class="bg">
+		{{ partial "breadcrumb.html" . }}
+	
+		<section>
+			<div class="container no-grid">
+    <h1>Get in Touch</h1>
+    <p>{{ .Content }}</p>
+
+<form name="contact" method="POST" data-netlify-recaptcha="true"  data-netlify="true">
+    <p class="hidden">
+      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+    </p>
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <div data-netlify-recaptcha="true"></div>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+</div>
+		</section>
+	</div>
+	{{ partial "footer.html" . }}
+</body>
+</html>

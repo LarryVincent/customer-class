@@ -236,3 +236,7 @@ a.navbar-item:hover,
 footer {
 	background-color: var(--faint-gray);
 }
+
+.hidden {
+	display: none;
+}
