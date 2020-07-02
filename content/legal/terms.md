@@ -5,7 +5,6 @@ show_author = false
 show_social = false
 type = "legal"
 source = "terms"
-
 +++
 
 The following terms and conditions apply to our site.
