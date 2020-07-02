@@ -1,0 +1,15 @@
+<div class="syllabus-row">
+	<h3 class="syllabus-focus-heading">Focus</h3>
+	<h3 class="syllabus-assign-heading">Assignment</h3>	
+	<div class="syllabus-focus">
+		<p>
+			{{ with .Get "focus" }}{{ . | markdownify }}{{ end }}
+		</p>
+	</div>
+	<div class="syllabus-assign">
+		<p>
+			{{ with .Get "assign" }}{{ . | markdownify  }}{{ end }}
+		</p>
+	</div>
+	
+</div>

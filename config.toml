@@ -7,15 +7,15 @@ languageCode = "en-us"
 theme = "hugo-theme-basic"
 title = "The Customer Class"
 
+[markup.goldmark.renderer]
+	unsafe = true
+
+
 [Permalinks]
 post = "essays/:slug"
 session = "sessions/:slug"
 legal = "legal/:slug"
 
-[[menu.main]]
-name = "Syllabus"
-url = "/syllabus"
-weight = 2
 [[menu.main]]
 name = "Course"
 url = "/course"
@@ -24,6 +24,10 @@ weight = 3
 name = "About"
 url = "/about"
 weight = 1
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 4
 
 [params]
 author = "Larry Vincent"
