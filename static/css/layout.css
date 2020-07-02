@@ -33,10 +33,10 @@
 	
 }
 
-.container.no-grid p + p,
+/* .container.no-grid p + p,
 .container.no-grid .head-matter p + p {
 	padding-bottom: 60px;
-}
+} */
 
 
 .frontpage {

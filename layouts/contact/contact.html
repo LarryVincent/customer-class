@@ -15,19 +15,20 @@
     <p class="hidden">
       <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
     </p>
-  <p>
-    <label>Your First Name: <input type="text" name="firstname" /></label>   
-  </p>
-  <p>
-    <label>Your Last Name: <input type="text" name="lastname" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <div data-netlify-recaptcha="true"></div>
+	<div class="form-fields">
+		<div class="form-row">
+			<div class="field-container">
+			<label class="form-item">First Name:</label><input type="text" name="firstname" class="form-item" />				
+			</div>
+			<div class="field-container">
+			<label class="form-item">Last Name:</label><input type="text" name="lastname" />  
+				
+			</div>
+			
+		</div>
+    <label>Email:</label><input type="email" name="email" />
+</div>
+  <div data-netlify-recaptcha="true" class="recaptcha"></div>
   <p>
     <button type="submit">Send</button>
   </p>
