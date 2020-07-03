@@ -5,12 +5,11 @@
 	{{ partial "header.html" . }}
 	<div class="bg">
 		{{ partial "breadcrumb.html" . }}
-	
 		<section>
 			<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
 			<article class="container">
-		
 				<div class="head-matter">
+					{{ with .Params.pre_head }}<p class="single-pre">{{ . }}</p>{{ end }}
 					<h1>{{ .Title }}</h1>
 					{{ if (not (isset .Params "show_author")) | or (eq .Params.show_author true) }}
 					{{ partial "author.html" . }}
@@ -34,5 +33,7 @@
 		</section>
 	</div>
 	{{ partial "footer.html" . }}
+	<script src="{{ "/js/script.js" | relURL }}"></script>
+	
 </body>
 </html>

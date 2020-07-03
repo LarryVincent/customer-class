@@ -1,13 +1,14 @@
----
-title: "Course Introduction"
-date: 2020-06-22T20:00:07-07:00
-teaser: "Welcome to MKT512. Our first week is dedicated to onboarding. We will explore the structure of the course, learn about the tools to navigate it, and establish the guiding philosophy of the content. This site will provide you with everything you need to know each week."
-linkable: true
-hero: true
-hero_image: "images/mkt512-welcome.png"
-slug: "Week 01"
-link_title: "Review learning objectives"
----
++++
+title = "Course Introduction"
+date = 2020-06-22T20:00:07-07:00
+teaser = "Welcome to MKT512. Our first week is dedicated to onboarding. We will explore the structure of the course, learn about the tools to navigate it, and establish the guiding philosophy of the content. This site will provide you with everything you need to know each week."
+linkable = true
+hero = true
+pre_head = "Week One"
+hero_image = "images/mkt512-welcome.png"
+link_title = "Review learning objectives"
+tags = ["Objectives"]
++++
 
 Welcome to MKT512. Our first week is dedicated to onboarding. We will explore the structure of the course, learn about the tools to navigate it, and establish the guiding philosophy of the content. This site will provide you with everything you need to know each week.
 
@@ -40,7 +41,7 @@ While we will use Google Docs and Google Sheets to facilitae collaborative works
 
 ### R and RStudio
 
-This is a data-driven course. We will be working with several data sets to perform anlyses that drive our discussions. Officially, I am agnostic about the tools you use to perform the required analyses. However, I will be using R to demonstrate these approaches throughout the course. 
+This is a data-driven course. We will be working with several data sets to perform analyses that drive our discussions. Officially, I am agnostic about the tools you use to perform the required analyses. However, I will be using R to demonstrate these approaches throughout the course. 
 
 R is a free, open-source environment for statistical computing and graphics. It is one of the leading tools used in business for data science. While it has a steeper learning curve than many other statistical platforms, it is powerful, flexible and supported by a massive community. The latter is perhaps the most compelling reason for students to learn R. There are so many pre-existing packages and resources available to help you develop insights, and the R community is one of the friendliest and most inclusive in the world of data science. 
 

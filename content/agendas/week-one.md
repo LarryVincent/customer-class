@@ -1,10 +1,10 @@
 +++
-title = "Week 01"
+title = "Week 01: Course Introduction and Onboarding"
 date = 2020-06-14T18:02:02.000-07:00
 type = "course"
 layout = "session"
 
-hero = "agendas/introduction.md"
+hero = "objectives/introduction.md"
 hero_headline = "Course Introduction"
 hero_slug = "Week #1"
 mid_left = "podcasts/podcast-1.md"

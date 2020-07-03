@@ -17,8 +17,8 @@ session = "sessions/:slug"
 legal = "legal/:slug"
 
 [[menu.main]]
-name = "Course"
-url = "/course"
+name = "Agenda"
+url = "/agendas"
 weight = 3
 [[menu.main]]
 name = "About"

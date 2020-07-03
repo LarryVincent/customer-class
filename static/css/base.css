@@ -240,3 +240,14 @@ footer {
 .hidden {
 	display: none;
 }
+
+.single-pre {
+	text-align: center;
+	font-family: var(--secondary-font);
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1em;
+	margin-bottom: 0;
+	padding-top: 2em;
+	padding-bottom: 0;
+}
