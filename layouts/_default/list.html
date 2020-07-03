@@ -1,21 +1,15 @@
-{{ partial "head.html" . }}
-<body>
-	  {{ partial "header.html" . }}
-	  <div class="bg">
-  <section id="main" class="container no-grid">
-	  <h1 class="section">{{ .Page.Title }}</h1>
-        {{ range .Data.Pages.ByDate.Reverse }}
+{{ define "main"}}
+<div class="bg">
+	<section id="main" class="container no-grid">
+		<h1 class="section">{{ .Page.Title }}</h1>
+		{{ range .Data.Pages.ByDate.Reverse }}
 		<div class="head-matter">
-          <a href="{{ .Permalink}}"><h2>{{ .Title }}</h2></a>
-          <p>{{ .Date.Format "January 2, 2006" }}</p>
-		  <p>{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</p>
-	  </div>
-        {{ end }}
-    </div>
-  </section>
+			<a href="{{ .Permalink}}"><h2>{{ .Title }}</h2></a>
+			<p>{{ .Date.Format "January 2, 2006" }}</p>
+			<p>{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</p>
+		</div>
+		{{ end }}
+	</div>
+</section>
 </div>
-  {{ partial "footer.html" . }}
-<script src="{{ "/js/script.js" | relURL }}"></script>
-  
-  </body>
-</html>
+{{ end }}

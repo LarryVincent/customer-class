@@ -1,6 +1,4 @@
-{{ partial "head.html" . }}
-<body>
-	  {{ partial "header.html" . }}
+{{ define "main" }}
 	  <div class="bg">
 	  {{ partial "breadcrumb.html" . }}
   <section id="main" class="course-container frontpage">
@@ -62,5 +60,4 @@
 		{{ end }}	  
   </section>
 </div>
-</body>
-</html>
+{{ end }}

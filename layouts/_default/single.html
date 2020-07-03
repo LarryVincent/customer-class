@@ -1,8 +1,4 @@
-{{ partial "head.html" . }}
-
-<body itemscope itemtype="http://schema.org/Article" >
-
-	{{ partial "header.html" . }}
+{{ define "main" }}
 	<div class="bg">
 		{{ partial "breadcrumb.html" . }}
 		<section>
@@ -32,8 +28,4 @@
 			</article>
 		</section>
 	</div>
-	{{ partial "footer.html" . }}
-	<script src="{{ "/js/script.js" | relURL }}"></script>
-	
-</body>
-</html>
+{{ end }}

@@ -1,8 +1,6 @@
-{{ partial "head.html" . }}
-<body>
-	{{ partial "header.html" . }}
-	{{ range first 1 (where site.RegularPages "Type" "in" site.Params.mainSections) }}	
-	<div class="bg">
+{{ define "main" }}
+{{ range first 1 (where site.RegularPages "Type" "in" site.Params.mainSections) }}	
+<div class="bg">
 	<section id="main" class="course-container frontpage">
 		{{ $hero := print .Params.hero }}
 		{{ with .GetPage $hero }}
@@ -66,11 +64,7 @@
 
 		</section>
 		
-		</div>
+	</div>
 		
-		{{ end }}
-		{{ partial "footer.html" . }}
-	<script src="{{ "/js/script.js" | relURL }}"></script>
-		
-	</body>
-	</html>
+	{{ end }}
+{{ end }}

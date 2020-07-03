@@ -1,6 +1,4 @@
-{{ partial "head.html" . }}
-<body>
-	{{ partial "header.html" . }}
+{{ define "main" }}
     {{ partial "breadcrumb.html" . }}
 	
 
@@ -13,6 +11,4 @@
   tjs.parentNode.insertBefore(js, tjs);
 }(document, 'script', 'termly-jssdk'));</script>
 
-{{ partial "footer.html" . }}
-</body>
-</html>
+{{ end }}
