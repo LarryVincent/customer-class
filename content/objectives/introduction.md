@@ -62,7 +62,7 @@ In addition to this site, I send out an all-class email most weeks. You should h
 
 ### Videos
 
-Because Zoom is not an ideal environment for lecture material, I have created a series of 7-10 minute videos that I will post throughout the semester. These will usually focus on theoretical material or technical demonstrations that will help you conduct your analyses. You are required to watch these videos as part of the course. I upload these videos to Vimeo so that you have the best video and audio quality. The videos are password protected. I will provide you with the password each week in my all-class email and on Slack.
+Zoom is not an ideal environment for lecture material. That's why I created a series of 7-10 minute videos that I will post throughout the semester. These usually focus on theoretical material or technical demonstrations to help you conduct your analyses. You are required to watch these videos as part of the course. I upload them to Vimeo so that you have the best video and audio quality. The videos are password protected. I will provide you with the password each week in my all-class email and on Slack. Please do not share the videos outside of class.
 
 ### Podcast
 
