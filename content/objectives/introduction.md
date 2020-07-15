@@ -48,7 +48,7 @@ This is a data-driven course. We will be working with several data sets to perfo
 
 R is a free, open-source environment for statistical computing and graphics. It is one of the leading tools used in business for data science. While it has a steeper learning curve than many other statistical platforms, it is powerful, flexible and supported by a massive community. The latter is perhaps the most compelling reason for students to learn R. There are so many pre-existing packages and resources available to help you develop insights, and the R community is one of the friendliest and most inclusive in the world of data science. 
 
-You can [download R](https://cran.r-project.org/mirrors.html) from its source or contact Marshall Research Computing. I also recommend that you [download R Studio](https://rstudio.com/products/rstudio/download/#download), a free development environment that makes learning and use R much easier. Note: you only need the free version. Do not purchase 
+You can [download R](https://cran.r-project.org/mirrors.html) from its source or contact Marshall Research Computing. I also recommend that you [download R Studio](https://rstudio.com/products/rstudio/download/#download), a free development environment that makes learning and using R much easier. Note: you only need the free version. Do not purchase 
 
 ### Email Blasts
 
@@ -56,7 +56,7 @@ In addition to this site, I send out an all-class email most weeks. You should h
 
 ### Videos
 
-Because it is not possible for us to all meet in-person each session, I will be posting many of the lectures as 7-10 minute videos. You are required to watch these videos as part of the course. If any video content is optional, I will explicitly mark it. I usually upload these videos to Vimeo for the best video and audio quality. The videos are password protected. I will provide you with the password each week in my all-class email.
+Because Zoom is not an ideal environment for lecture material, I have created a series of 7-10 minute videos that I will post throughout the semester. These will usually focus on theoretical material or technical demonstrations that will help you conduct your analyses. You are required to watch these videos as part of the course. I upload these videos to Vimeo so that you have the best video and audio quality. The videos are password protected. I will provide you with the password each week in my all-class email and on Slack.
 
 ### Podcast
 
