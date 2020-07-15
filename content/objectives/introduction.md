@@ -23,21 +23,24 @@ We have four learning objectives this week:
 
 ### This Site
 
-I created this site to be an easy guide to each week of the course. You will find each week's agenda, learning objectives, relevant content (videos, audio, reading), and information about upcoming assignments. As a courtesy, I repost a lot of the content on Blackboard but this site will generally provide you with a better, more organized user experience.
+I created this site to be an easy guide to each week of the course. You will find each week's agenda, learning objectives, relevant content (videos, audio, reading), and information about upcoming assignments. It is optional for you to return to this site during the course, but I hope you find it useful.
 
 ### Blackboard
 
-I use Blackboard to post content that cannot be posted publicly (i.e. slide presentations, datasets, etc.). I occasionally use it to gather materials from you, as well. Usually, when I post something to Blackboard I will let you know that new content has been posted, but it is a good practice to check in once a week.
+I rarely use Blackboard. I will occasionally post materials there, but I would encourage you to rely more on the other tools listed here. 
 
 ### Slack
 
-I use Slack to facilitate asynchronous conversations during the course. If you have not already done so, you should download the app and accept the invitation that I have sent to you to join our course workstream. I continuously monitor Slack. You can always reach me there. If you email me with questions, I will often ask you to post them on Slack rather than respond in your email (unless your question requires privacy). I have setup several channels on Slack and will create new channels as the course progresses. Channels are a great way to organize conversations. Before our first class, you should take some time to familiarize yourself with the app and the way I have organized channels. 
+Slack is our primary communication tool during the course. I sent each of you an invitation to join the course's Slack workspace. If you have not already done so, please accept that invite and get setup. I strongly encourage you to download the app for your mobile phone or tablet. It makes it very easy to stay connected to the course. I continuously monitor Slack. You can always reach me there. If you email me with a question, I will ask you to post it on Slack rather than respond in your email. Keep in mind that Slack also allowas you to message me privately. I have setup several channels on Slack and will create new channels as the course progresses. Channels are a great way to organize conversations. Before our first class, you should take some time to familiarize yourself with the app and the way I have organized channels. You can also create private groups and channels of your own to facilitate group projects and smaller case discussions. **Slack is not optional.** Important information related to graded material will only be provided via this communication tool.
+
+### Office Hours
+My office hours are from 5-6pm on Mondays and Wednesdays (immediately after class). You can schedule time with me on [my booking page](https://larry-vincent.youcanbook.me). I am happy to meet with you to discuss any topics relevant to the course, and I'm also happy to discuss your career path. I encourage every student to set at least one office hour appointment with me during the semester. You can even set that time with a couple of other classmates so that we can have a discussion as a small group (I suggest no more than three at a time). If you wish to meet with me but can't meet during my scheduled time, please reach out to me via Slack to find an alternate time. I do my best to accomodate these requests. 
 
 ### Google Docs, Sheets and Drive
 
 We will be doing a lot of collaborative work and brainswarming. I will explain more about this during the week. I use Google Docs and Google Sheets to facilitate these collaborative workstreams. I find most students are already using these tools, but if you do not already have them you should contact the Marshall help desk for information on how to establish an account.
 
-While we will use Google Docs and Google Sheets to facilitae collaborative workstreams, I will also post content to Google Drive and use it to receive files from you. Anything that I on Google Drive will also be posted to Blackboard. I find Drive it easier to use and many of my students in the past preferred it.
+While we will use Google Docs and Google Sheets to facilitae collaborative workstreams, I will also post content to Google Drive and use it to receive files from you.
 
 ### R and RStudio
 
@@ -49,7 +52,7 @@ You can [download R](https://cran.r-project.org/mirrors.html) from its source or
 
 ### Email Blasts
 
-In addition to this site, I send out an all-class email most weeks. You should have already received the first of these with an overview of the course and what to expect. These emails contain important information about the coming week, including questions for you to consider before case discussions. If you have not received an email from me, please check your spam filters and add my email address to your address book. I use Mailchimp to send these emails out because it provides a better experience and makes it easier for me to track distribution.
+In addition to this site, I send out an all-class email most weeks. You should have already received the first of these with an overview of the course and what to expect. These emails contain important information about the coming week, including questions for you to consider before case discussions. If you have not received an email from me, please check your spam filters and add my email address to your address book. I use Mailchimp to send these emails out because it provides a better experience and makes it easier for me to track distribution. 
 
 ### Videos
 
@@ -57,4 +60,4 @@ Because it is not possible for us to all meet in-person each session, I will be 
 
 ### Podcast
 
-I have created an original podcast specifically for this course. Each episode is about 12-15 minutes long. There are six episodes, in total. I will post links to the current episode on this site, on Blackboard and in the email blasts. This content is part of the course and you are required to listen to it, but I do my best to make it entertaining. Each episode features a guest who is a leading marketer. Their perspectives are relevant to our learning and to our exploration of key concepts during the course. You will be able to listen to the content on any browser, but I also publish the episodes on Apple Podcasts, Spotify, Stitcher, and Google Play. If you subscribe to it through one of those platforms, you will automatically know when a new episode is available.
+I have created an original podcast specifically for this course. Each episode is about 12-15 minutes long. There are six episodes, in total. I will post links to the current episode on this site, on Slack and in the email blasts. This content is part of the course and you are required to listen to it, but I do my best to make it entertaining. Each episode features a guest who is a leading marketer. Their perspectives are relevant to our learning and to our exploration of key concepts during the course. You will be able to listen to the content on any browser, but I also publish the episodes on Apple Podcasts, Spotify, Stitcher, and Google Play. If you subscribe to it through one of those platforms, you will automatically know when a new episode is available.
