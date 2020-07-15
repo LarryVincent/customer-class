@@ -23,11 +23,11 @@ We have four learning objectives this week:
 
 ### This Site
 
-I created this site to be an easy guide to each week of the course. You will find each week's agenda, learning objectives, relevant content (videos, audio, reading), and information about upcoming assignments. It is optional for you to return to this site during the course, but I hope you find it useful.
+I created this site to be an easy guide to the course. You will find each week's agenda, learning objectives, relevant content (videos, audio, reading), and information about upcoming assignments. 
 
 ### Blackboard
 
-I rarely use Blackboard. I will occasionally post materials there, but I would encourage you to rely more on the other tools listed here. 
+I rarely use Blackboard. I will occasionally post materials there, but I would encourage you to rely more on the other tools listed here, especially Slack. 
 
 ### Slack
 
