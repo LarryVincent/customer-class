@@ -30,25 +30,31 @@ I rarely use Blackboard. I will occasionally post materials there, but I would e
 
 ### Slack
 
-Slack is our primary communication tool during the course. I sent each of you an invitation to join the course's Slack workspace. If you have not already done so, please accept that invite and get setup. I strongly encourage you to download the app for your mobile phone or tablet. It makes it very easy to stay connected to the course. I continuously monitor Slack. You can always reach me there. If you email me with a question, I will ask you to post it on Slack rather than respond in your email. Keep in mind that Slack also allowas you to message me privately. I have setup several channels on Slack and will create new channels as the course progresses. Channels are a great way to organize conversations. Before our first class, you should take some time to familiarize yourself with the app and the way I have organized channels. You can also create private groups and channels of your own to facilitate group projects and smaller case discussions. **Slack is not optional.** Important information related to graded material will only be provided via this communication tool.
+Slack is our primary communication tool during the course. I sent each of you an invitation to join the course's Slack workspace. If you have not already done so, please accept that invite and get setup. I strongly encourage you to download the app for your mobile phone or tablet. It makes it very easy to stay connected to the course. 
+
+I continuously monitor Slack. You can always reach me there. If you email me with a question, I will probably ask you to post it on Slack rather than respond in your email. Keep in mind that Slack also allows you to message me privately. 
+
+I have setup several channels on Slack and will create new channels as the course progresses, if needed. Channels are a great way to organize conversations. Because the content doesn't disappear, it provides a running record (including file sharing) that you can use later to prepare for assignments and the final exam.
+
+Before our first class, you should take some time to familiarize yourself with the app and the way that I have organized channels. You can also create your own private groups and channels to facilitate group projects and smaller case discussions. 
+
+**Slack is not optional.** Important information related to graded material will only be provided via this communication tool, so take the time to install it and be sure to check it regularly.
 
 ### Office Hours
 
-My office hours are from 5-6pm on Mondays and Wednesdays (immediately after class). You can schedule time with me on [my booking page](https://larry-vincent.youcanbook.me). I am happy to meet with you to discuss any topics relevant to the course, and I'm also happy to discuss your career path. I encourage every student to set at least one office hour appointment with me during the semester. You can even set that time with a couple of other classmates so that we can have a discussion as a small group (I suggest no more than three at a time). If you wish to meet with me but can't meet during my scheduled time, please reach out to me via Slack to find an alternate time. I do my best to accomodate these requests.
+My office hours are from 5-6pm on Mondays and Wednesdays (immediately after class). You can schedule time with me on [my booking page](https://larry-vincent.youcanbook.me). I am happy to meet with you to discuss any topics relevant to the course, and I'm also happy to discuss your career path. I encourage every student to set at least one office hour appointment with me during the semester. You can even set that time with a couple of other classmates so that we can have a discussion as a small group (I suggest no more than three at a time). If you wish to meet with me but can't meet during my scheduled time, please reach out to me via Slack to find an alternate time. I do my best to accommodate these requests.
 
 ### Google Docs, Sheets and Drive
 
-We will be doing a lot of collaborative work and brainswarming. I will explain more about this during the week. I use Google Docs and Google Sheets to facilitate these collaborative workstreams. I find most students are already using these tools, but if you do not already have them you should contact the Marshall help desk for information on how to establish an account.
-
-While we will use Google Docs and Google Sheets to facilitae collaborative workstreams, I will also post content to Google Drive and use it to receive files from you.
+We will be doing a lot of collaborative work and _brainswarming_. I will explain more about this during the week. I will sometimes ask you to use Google Docs to facilitate these collaborative workstreams and share with me.  I also use Google Drive to receive files from you. Most students already use these Google tools, but if you do not you should contact the Marshall help desk for information on how to get setup.
 
 ### R and RStudio
 
-This is a data-driven course. We will be working with several data sets to perform analyses that drive our discussions. Officially, I am agnostic about the tools you use to perform the required analyses. However, I will be using R to demonstrate these approaches throughout the course.
+This is a data-driven course. We will be working with several datasets to perform analyses that drive our discussions. Officially, I am agnostic about the tools you use to perform the required analyses. However, I will be using R to demonstrate these approaches throughout the course.
 
 R is a free, open-source environment for statistical computing and graphics. It is one of the leading tools used in business for data science. While it has a steeper learning curve than many other statistical platforms, it is powerful, flexible and supported by a massive community. The latter is perhaps the most compelling reason for students to learn R. There are so many pre-existing packages and resources available to help you develop insights, and the R community is one of the friendliest and most inclusive in the world of data science.
 
-You can [download R](https://cran.r-project.org/mirrors.html) from its source or contact Marshall Research Computing. I also recommend that you [download R Studio](https://rstudio.com/products/rstudio/download/#download), a free development environment that makes learning and using R much easier. Note: you only need the free version. Do not purchase
+You can [download R](https://cran.r-project.org/mirrors.html) from its source or contact Marshall Research Computing. I also recommend that you [download R Studio](https://rstudio.com/products/rstudio/download/#download), a free development environment that makes learning and using R much easier. Note: if you decide to download R Studio, you only need the free version. Do not purchase any of the other versions.
 
 ### Email Blasts
 
