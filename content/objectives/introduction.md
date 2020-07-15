@@ -1,40 +1,40 @@
 +++
-title = "Course Introduction"
-date = 2020-06-22T20:00:07-07:00
-teaser = "Welcome to MKT512. Our first week is dedicated to onboarding. We will explore the structure of the course, learn about the tools to navigate it, and establish the guiding philosophy of the content. This site will provide you with everything you need to know each week."
-linkable = true
+date = 2020-06-23T03:00:07Z
 hero = true
-pre_head = "Week One"
 hero_image = "images/mkt512-welcome.png"
 link_title = "Review learning objectives"
+linkable = true
+pre_head = "Week One"
 tags = ["Objectives"]
+teaser = "Welcome to MKT512. Our first week is dedicated to onboarding. We will explore the structure of the course, learn about the tools to navigate it, and establish the guiding philosophy of the content. This site will provide you with everything you need to know each week."
+title = "Course Introduction"
+
 +++
+Welcome to MKT512. Our first week is dedicated to onboarding. We will explore the structure of the course, learn about the tools to navigate it, and establish the guiding philosophy of the content. 
 
-Welcome to MKT512. Our first week is dedicated to onboarding. We will explore the structure of the course, learn about the tools to navigate it, and establish the guiding philosophy of the content. This site will provide you with everything you need to know each week.
-
-We have four learning objectives this week:
+We have three learning objectives this week:
 
 1. Demonstrate how customer marketing differs from broader marketing disciplines, such as consumer marketing
 2. Learn how to use discovery-based inquiry to gather customer insights
-4. Distinguish how data drives customer marketing decisions
 3. Create a visualization of relevant data
 
 ## How I teach the course
 
 ### This Site
 
-I created this site to be an easy guide to the course. You will find each week's agenda, learning objectives, relevant content (videos, audio, reading), and information about upcoming assignments. 
+I created this site to be an easy guide to the course. You will find each week's agenda, learning objectives, relevant content (videos, audio, reading), and information about upcoming assignments.
 
 ### Blackboard
 
-I rarely use Blackboard. I will occasionally post materials there, but I would encourage you to rely more on the other tools listed here, especially Slack. 
+I rarely use Blackboard. I will occasionally post materials there, but I would encourage you to rely more on the other tools listed here, especially Slack.
 
 ### Slack
 
 Slack is our primary communication tool during the course. I sent each of you an invitation to join the course's Slack workspace. If you have not already done so, please accept that invite and get setup. I strongly encourage you to download the app for your mobile phone or tablet. It makes it very easy to stay connected to the course. I continuously monitor Slack. You can always reach me there. If you email me with a question, I will ask you to post it on Slack rather than respond in your email. Keep in mind that Slack also allowas you to message me privately. I have setup several channels on Slack and will create new channels as the course progresses. Channels are a great way to organize conversations. Before our first class, you should take some time to familiarize yourself with the app and the way I have organized channels. You can also create private groups and channels of your own to facilitate group projects and smaller case discussions. **Slack is not optional.** Important information related to graded material will only be provided via this communication tool.
 
 ### Office Hours
-My office hours are from 5-6pm on Mondays and Wednesdays (immediately after class). You can schedule time with me on [my booking page](https://larry-vincent.youcanbook.me). I am happy to meet with you to discuss any topics relevant to the course, and I'm also happy to discuss your career path. I encourage every student to set at least one office hour appointment with me during the semester. You can even set that time with a couple of other classmates so that we can have a discussion as a small group (I suggest no more than three at a time). If you wish to meet with me but can't meet during my scheduled time, please reach out to me via Slack to find an alternate time. I do my best to accomodate these requests. 
+
+My office hours are from 5-6pm on Mondays and Wednesdays (immediately after class). You can schedule time with me on [my booking page](https://larry-vincent.youcanbook.me). I am happy to meet with you to discuss any topics relevant to the course, and I'm also happy to discuss your career path. I encourage every student to set at least one office hour appointment with me during the semester. You can even set that time with a couple of other classmates so that we can have a discussion as a small group (I suggest no more than three at a time). If you wish to meet with me but can't meet during my scheduled time, please reach out to me via Slack to find an alternate time. I do my best to accomodate these requests.
 
 ### Google Docs, Sheets and Drive
 
@@ -44,15 +44,15 @@ While we will use Google Docs and Google Sheets to facilitae collaborative works
 
 ### R and RStudio
 
-This is a data-driven course. We will be working with several data sets to perform analyses that drive our discussions. Officially, I am agnostic about the tools you use to perform the required analyses. However, I will be using R to demonstrate these approaches throughout the course. 
+This is a data-driven course. We will be working with several data sets to perform analyses that drive our discussions. Officially, I am agnostic about the tools you use to perform the required analyses. However, I will be using R to demonstrate these approaches throughout the course.
 
-R is a free, open-source environment for statistical computing and graphics. It is one of the leading tools used in business for data science. While it has a steeper learning curve than many other statistical platforms, it is powerful, flexible and supported by a massive community. The latter is perhaps the most compelling reason for students to learn R. There are so many pre-existing packages and resources available to help you develop insights, and the R community is one of the friendliest and most inclusive in the world of data science. 
+R is a free, open-source environment for statistical computing and graphics. It is one of the leading tools used in business for data science. While it has a steeper learning curve than many other statistical platforms, it is powerful, flexible and supported by a massive community. The latter is perhaps the most compelling reason for students to learn R. There are so many pre-existing packages and resources available to help you develop insights, and the R community is one of the friendliest and most inclusive in the world of data science.
 
-You can [download R](https://cran.r-project.org/mirrors.html) from its source or contact Marshall Research Computing. I also recommend that you [download R Studio](https://rstudio.com/products/rstudio/download/#download), a free development environment that makes learning and using R much easier. Note: you only need the free version. Do not purchase 
+You can [download R](https://cran.r-project.org/mirrors.html) from its source or contact Marshall Research Computing. I also recommend that you [download R Studio](https://rstudio.com/products/rstudio/download/#download), a free development environment that makes learning and using R much easier. Note: you only need the free version. Do not purchase
 
 ### Email Blasts
 
-In addition to this site, I send out an all-class email most weeks. You should have already received the first of these with an overview of the course and what to expect. These emails contain important information about the coming week, including questions for you to consider before case discussions. If you have not received an email from me, please check your spam filters and add my email address to your address book. I use Mailchimp to send these emails out because it provides a better experience and makes it easier for me to track distribution. 
+In addition to this site, I send out an all-class email most weeks. You should have already received the first of these with an overview of the course and what to expect. These emails contain important information about the coming week, including questions for you to consider before case discussions. If you have not received an email from me, please check your spam filters and add my email address to your address book. I use Mailchimp to send these emails out because it provides a better experience and makes it easier for me to track distribution.
 
 ### Videos
 
