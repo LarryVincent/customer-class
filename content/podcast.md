@@ -2,6 +2,7 @@
 title = "Podcast"
 description = ""
 tags = ["development"]
+type = "pods"
 cover_image = "tcc-cover-art.png"
 show_author = false
 show_social = false

@@ -1,0 +1,39 @@
+{{ define "main" }}
+	<div class="bg">
+		{{ partial "breadcrumb.html" . }}
+		<section>
+			<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
+			<article class="container">
+				<div class="head-matter">
+					{{ with .Params.pre_head }}<p class="single-pre">{{ . }}</p>{{ end }}
+					<h1>{{ .Title }}</h1>
+					{{ if (not (isset .Params "show_author")) | or (eq .Params.show_author true) }}
+					{{ partial "author.html" . }}
+					<div class="meta-block">
+						<p class="meta-left"><span class="meta">Published&nbsp;&nbsp;&nbsp;</span><time>{{ .PublishDate.Format "January 2, 2006" }}</time></p>
+						<p class="meta-right"><span class="meta">Subject&nbsp;&nbsp;&nbsp;</span>
+							<span>{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</span>
+							{{ end }}
+						</p>
+					</div>
+					{{ if (not (isset .Params "show_social")) | or (eq .Params.show_social true )}}
+					<div class="social-links">
+						{{ partial "share-buttons.html" . }}					
+					</div>
+					{{ end }}
+					<div class="main-content">
+					{{ .Content }}
+				<h2>Episodes</h2>
+				{{ $pods := where $.Site.RegularPages "Section" "podcasts"}}
+				{{ range $pods }}
+				<div class="podcast-summary">
+					<h3>{{ .Title }}</h3>
+					<p>{{ .Params.teaser }}</p>
+					<iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-forms" scrolling=no width="100%" height="185" frameborder="0" src="{{ .Params.rp_embed }}"></iframe>
+				</div>
+				{{ end }}
+			</div>
+			</article>
+		</section>
+	</div>
+{{ end }}
