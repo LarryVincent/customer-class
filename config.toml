@@ -39,6 +39,7 @@ authorIcon = "lv-signature-circle.png"
 titleEmoji = ":tada:"
 twitter = "@lvincent"
 mainSections = ["course"]
+gtm_id = "GTM-W8RXX28"
 
 [privacy.googleAnalytics]
 anonymizeIP = true
