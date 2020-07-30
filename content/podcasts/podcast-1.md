@@ -16,11 +16,13 @@ In this first episode of the podcast series, we explore some fundamental drivers
 
 {{% pod-module %}}
 
-
-## Guest: Julie Rice
+## Guest {.guest-label}
+##  Julie Rice {.guest}
 
 ![Julie Rice](/images/jr-landscape.jpg)
 
-Julie Rice is an entrepreneur best known for co-founding the fitness phenomenon, SoulCycle. Rice's life's work has been about building community and she served as Co-CEO at SoulCycle from 2006 to 2015 before serving as a Partner at WeWork from 2017 to 2019. She is currently the Co-Founder of LifeShop. LifeShop advises and invests in entrepreneurs and consults with businesses at scale. LifeShop is also developing original concepts in the health and happiness space. 
+Julie Rice is an entrepreneur best known for co-founding the fitness phenomenon, SoulCycle. Rice's life's work has been about building community and she served as Co-CEO at SoulCycle from 2006 to 2015 before serving as a Partner at WeWork from 2017 to 2019. 
 
-Rice lives in NYC with her husband, Spencer, and their two daughters, Phoebe and Parker.  She is a board member of the Public Theatre and WeightWatchers, as well as an advisor to the women's club, The Wing.
+She is currently the Co-Founder of LifeShop. LifeShop advises and invests in entrepreneurs and consults with businesses at scale. LifeShop is also developing original concepts in the health and happiness space. 
+
+Rice lives in NYC with her husband, Spencer, and their two daughters, Phoebe and Parker.  She is a board member of the Public Theatre and WeightWatchers.
