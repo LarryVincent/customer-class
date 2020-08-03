@@ -15,6 +15,4 @@ teaser = ""
 +++
    
 - BKN Ch 1-3
-- WG 2, 3 & 27
-- Spotify Case
-  
+- WG 2, 3 & 27  

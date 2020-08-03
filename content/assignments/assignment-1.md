@@ -8,5 +8,5 @@ link_title = "Instructions"
 tags = ["Assignments"]
 +++
 
-- Interview a student
-- Visualize #this
+- Introduce yourself on Slack #community
+- Student interview

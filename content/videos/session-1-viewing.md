@@ -7,8 +7,8 @@ content_type = "Watch"
 show_links = true
 +++
 
-* [A Guided Tour of the Course](https://youtu.be/SWxoJqTqo08)
-* [Introduction to Customer-Centric Marketing](https://youtu.be/SWxoJqTqo08)
-* [Story-Driven Discovery]("/")
-* [Introduction to R](https://youtu.be/SWxoJqTqo08)
-* [Visualizing Data](https://youtu.be/SWxoJqTqo08)
+* Introduction to the Course
+* Introduction to Slack
+* Introduction to Customer-Centric Marketing
+* Introduction to R Studio Cloud
+* Story-Driven Discovery
