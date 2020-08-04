@@ -1,12 +1,11 @@
 {{ define "main" }}
 	<div class="bg">
 		<section>
-			<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
+			<img class="hero-image" src="/images/tcc-cover-art.png" />
 			<article class="container">
 				<div class="head-matter">
 					<div class="main-content">
 					{{ .Content }}
-				<h2>Episodes</h2>
 				{{ $pods := where $.Site.RegularPages "Section" "podcasts"}}
 				{{ range $pods }}
 				<div class="podcast-summary">
