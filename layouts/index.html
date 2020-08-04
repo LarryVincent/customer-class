@@ -1,6 +1,5 @@
 {{ define "main" }}
 	<div class="bg">
-		{{ partial "breadcrumb.html" . }}
 		<section>
 			<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
 			<article class="container">
@@ -11,6 +10,7 @@
 				{{ $pods := where $.Site.RegularPages "Section" "podcasts"}}
 				{{ range $pods }}
 				<div class="podcast-summary">
+					{{ with .Params.pre_head }}<p class="single-pre">{{ . }}</p>{{ end }}
 					<h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
 					<p>{{ .Params.teaser }}</p>
 					<iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-forms" scrolling=no width="100%" height="185" frameborder="0" src="{{ .Params.rp_embed }}"></iframe>
