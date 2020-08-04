@@ -1,70 +1,23 @@
 {{ define "main" }}
-{{ range first 1 (where site.RegularPages "Type" "in" site.Params.mainSections) }}	
-<div class="bg">
-	<section id="main" class="course-container frontpage">
-		{{ $hero := print .Params.hero }}
-		{{ with .GetPage $hero }}
-		<div class="hero-image">
-			{{ with .Params.hero_image }}<img src="{{ . }}" />{{ end }}
-		</div>
-		<div class="hero-content">
-			{{ with .Params.pre_head }}<p class="format">{{ . }}</p>{{ end }}
-			<a href="{{ .Permalink }}">{{ with .Title }}<h1>{{ . }}</h1>{{ end }}</a>
-			{{ with .Params.teaser }}<p>{{ . }}</p>{{ end }}
-			<a href="{{ .Permalink }}" class="read-more">
-				<p><i class="fas fa-arrow-right"></i>&nbsp;&nbsp;{{ with .Params.link_title }}{{ . }}{{ else }}Read more{{ end }}</p></a>
-			</div>
-			{{ end }}
-
-			{{ $mlp := print .Params.mid_left }}
-			{{ with .GetPage $mlp }}
-			<div class="featured-content ruler">
-				<div class="fp-cell">
-					{{ partial "session_summary.html" . }}
+	<div class="bg">
+		{{ partial "breadcrumb.html" . }}
+		<section>
+			<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
+			<article class="container">
+				<div class="head-matter">
+					<div class="main-content">
+					{{ .Content }}
+				<h2>Episodes</h2>
+				{{ $pods := where $.Site.RegularPages "Section" "podcasts"}}
+				{{ range $pods }}
+				<div class="podcast-summary">
+					<h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+					<p>{{ .Params.teaser }}</p>
+					<iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-forms" scrolling=no width="100%" height="185" frameborder="0" src="{{ .Params.rp_embed }}"></iframe>
 				</div>
+				{{ end }}
 			</div>
-			{{ end }}
-
-			{{ $mcp := print .Params.mid_center }}
-			{{ with .GetPage $mcp }}
-			<div class="viewing ruler">
-				<div class="fp-cell left-border">
-					{{ partial "session_summary.html" . }}
-				</div>
-			</div>
-			{{ end }}	  	
-
-			{{ $mrp := print .Params.mid_right }}
-			{{ with .GetPage $mrp }}
-			<div class="reading ruler">
-				<div class="fp-cell left-border">
-					{{ partial "session_summary.html" . }}
-				</div>
-			</div>
-			{{ end }}
-
-			{{ $blp := print .Params.bot_left }}
-			{{ with .GetPage $blp }}
-			<div class="assignment ruler">
-				<div class="fp-cell">
-					{{ partial "session_summary.html" . }}
-				</div>
-			</div>
-			{{ end }}
-
-			{{ $brp := print .Params.bot_right }}
-			{{ with .GetPage $brp }}
-			<div class="contribution ruler">
-				<div class="fp-cell left-border">
-					{{ partial "session_summary.html" . }}
-				</div>
-			</div>
-			{{ end }}	  
-
-
+			</article>
 		</section>
-		
 	</div>
-		
-	{{ end }}
 {{ end }}
