@@ -1,6 +1,5 @@
 {{ define "main" }}
 	<div class="bg">
-		{{ partial "breadcrumb.html" . }}
 		<section>
 			<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
 			<article class="container">
