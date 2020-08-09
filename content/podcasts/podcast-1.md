@@ -7,7 +7,7 @@ tags = ["Podcast"]
 teaser = "In the first episode in the series, SoulCycle co-founder Julie Rice sets the stage on the value of a great customer experience and shares insights many managers overlook."
 title = "Finding the Soul of Your Customers"
 description = "SoulCycle co-founder Julie Rice sets the stage on the value of a great customer experience and shares insights many managers overlook."
-images = ["jr-landscape.jpg"]
+images = ["/images/jr-landscape.jpg"]
 rp_embed = "https://embed.radiopublic.com/e?if=the-customer-class-GAV0rN&ge=s1!b1ad16638a97f295782831ca1fe333631a7f3373"
 
 +++
