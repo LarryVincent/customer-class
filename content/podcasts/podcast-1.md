@@ -12,8 +12,7 @@ rp_embed = "https://embed.radiopublic.com/e?if=the-customer-class-GAV0rN&ge=s1!b
 [twitter]
    card = "description"
    title = "Finding the Soul of Your Customer"
-   image = "/images/jr-landscape.jpg"
-
+   image = "https://www.thecustomerclass.com/images/jr-landscape.jpg"
 +++
 
 ## Overview
