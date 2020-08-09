@@ -16,6 +16,9 @@ post = "essays/:slug"
 session = "sessions/:slug"
 legal = "legal/:slug"
 
+[Social]
+twitter = "@lvincent"
+
 [[menu.main]]
 name = "About"
 url = "/about"
