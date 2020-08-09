@@ -45,3 +45,6 @@ privacyEnhanced = true
 [taxonomies]
 category = "categories"
 tag = "tags"
+
+[social]
+twitter = "@customerclass"
