@@ -1,6 +1,6 @@
 baseURL = "https://www.thecustomerclass.com"
 copyright = "© 2020 Laurence Vincent."
-description = "Home of Larry Vincent's MBA Course on Customer Insights and Analysis at USC Marshall School of Business"
+description = "A podcast from The Findings report about the people every business must find and keep."
 enableEmoji = false
 googleAnalytics = "UA-86621401-5"
 languageCode = "en-us"
@@ -24,6 +24,8 @@ weight = 1
 [params]
 author = "Larry Vincent"
 authorIcon = "lv-signature-circle.png"
+description = "A podcast from The Findings report about the people every business must find and keep."
+images = ["tcc-cover-art.png"]
 titleEmoji = ":tada:"
 twitter = "@lvincent"
 mainSections = ["course"]
