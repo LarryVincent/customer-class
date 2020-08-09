@@ -10,7 +10,6 @@ title = "The Customer Class"
 [markup.goldmark.renderer]
 	unsafe = true
 
-
 [Permalinks]
 post = "essays/:slug"
 session = "sessions/:slug"

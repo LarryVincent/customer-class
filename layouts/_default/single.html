@@ -6,15 +6,6 @@
 				<div class="head-matter">
 					{{ with .Params.pre_head }}<p class="single-pre">{{ . }}</p>{{ end }}
 					<h1>{{ .Title }}</h1>
-					{{ if (not (isset .Params "show_author")) | or (eq .Params.show_author true) }}
-					{{ partial "author.html" . }}
-					<div class="meta-block">
-						<p class="meta-left"><span class="meta">Published&nbsp;&nbsp;&nbsp;</span><time>{{ .PublishDate.Format "January 2, 2006" }}</time></p>
-						<p class="meta-right"><span class="meta">Subject&nbsp;&nbsp;&nbsp;</span>
-							<span>{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</span>
-							{{ end }}
-						</p>
-					</div>
 					{{ if (not (isset .Params "show_social")) | or (eq .Params.show_social true )}}
 					<div class="social-links">
 						{{ partial "share-buttons.html" . }}					
