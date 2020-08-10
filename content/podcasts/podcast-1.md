@@ -32,11 +32,11 @@ Rice lives in NYC with her husband, Spencer, and their two daughters, Phoebe and
 
 ## Music
 
-- *[88 on Me]("https://www.marmosetmusic.com/browse/48113-88-on-me-instrumental")* by Kevin J. Simon
-- *[An Answer]("https://www.marmosetmusic.com/browse/3251-an-answer-instrumental")* by Michael Charles Smith
-- *[State Lines]("https://www.marmosetmusic.com/browse/42099-state-lines-instrumental")* by JB Lucas
-- *[Vince's Inspiration]("https://www.marmosetmusic.com/browse/70923-vince-s-inspiration-instrumental")* by Jordan Taylor Roach
+- *[88 on Me](https://www.marmosetmusic.com/browse/48113-88-on-me-instrumental)* by Kevin J. Simon
+- *[An Answer](https://www.marmosetmusic.com/browse/3251-an-answer-instrumental)* by Michael Charles Smith
+- *[State Lines](https://www.marmosetmusic.com/browse/42099-state-lines-instrumental)* by JB Lucas
+- *[Vince's Inspiration](https://www.marmosetmusic.com/browse/70923-vince-s-inspiration-instrumental)* by Jordan Taylor Roach
 
-_The Customer Class_ theme (Face of Pain) is by [Michael Charles Smith]("https://www.marmosetmusic.com/artists/michael-charles-smith")
+_The Customer Class_ theme (Face of Pain) is by [Michael Charles Smith](https://www.marmosetmusic.com/artists/michael-charles-smith)
 
-All tracks licensed through [Marmoset Music]("https://www.marmosetmusic.com/").
+All tracks licensed through [Marmoset Music](https://www.marmosetmusic.com/).
