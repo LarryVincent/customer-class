@@ -15,6 +15,39 @@
 	margin: 0 auto;
 }
 
+.slot {
+	display: flex;
+}
+
+p.follow {
+	font-family: var(--secondary-font);
+	font-size: 0.8em;
+	font-weight: 700;
+}
+
+p.follow i {
+	margin-left: 10px;
+}
+
+.show-title {
+	background-color: var(--apple-blossom);
+	max-width: 60%;
+	padding: 0 24px;
+	padding-bottom: 24px;
+}
+
+.show-title > h1,
+.show-title > h1 a {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	color: black;
+	font-size: 2em;
+	line-height: 1;
+	letter-spacing: -0.1;
+	margin: 0;
+	text-align: left;
+}
+
 .container.no-grid {
 	display: block;
 	text-align: center;
@@ -323,7 +356,7 @@ p.meta-right {
 
 .main-content {
 	grid-area: main-content;
-	max-width: 600px;
+/*	max-width: 600px; */
 	margin: 0 auto;
 	padding-bottom: 3em;
 }

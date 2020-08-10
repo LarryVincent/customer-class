@@ -1,17 +1,21 @@
 {{ define "main" }}
 	<div class="bg">
 		<section>
-			<img class="hero-image" src="/images/tcc-cover-art.png" />
 			<article class="container">
 				<div class="head-matter">
 					<div class="main-content">
 					{{ .Content }}
-				{{ $pods := where $.Site.RegularPages "Section" "podcasts"}}
-				{{ range $pods }}
-				<div class="podcast-summary">
+					{{ $pods := where $.Site.RegularPages "Section" "podcasts"}}
+					{{ range first 1 $pods }}
+					<div class="podcast-summary">
 					{{ with .Params.pre_head }}<p class="single-pre">{{ . }}</p>{{ end }}
 					<h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-					<p>{{ .Params.teaser }}</p>
+					{{ if .Params.images }}
+					{{ $image := index ( .Params.images ) 0 }}
+					<img src="{{ $image }}">
+					{{ end }}
+					<p style="padding-top: 36px;">{{ .Params.teaser }}</p>
+					<a href="{{ .Permalink }}"><p class="follow">Read episode details<i class="fal fa-arrow-square-right"></i></p></a>
 					<iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-forms" scrolling=no width="100%" height="185" frameborder="0" src="{{ .Params.rp_embed }}"></iframe>
 				</div>
 				{{ end }}

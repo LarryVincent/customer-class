@@ -5,6 +5,7 @@ date = 2020-07-27T03:50:56Z
 pre_head = "Episode 01"
 tags = ["Podcast"]
 teaser = "In the first episode in the series, SoulCycle co-founder Julie Rice sets the stage on the value of a great customer experience and shares insights many managers overlook."
+guest = "Julie Rice"
 title = "Finding the Soul of Your Customers"
 description = "SoulCycle co-founder Julie Rice sets the stage on the value of a great customer experience and shares insights many managers overlook."
 images = ["/images/cover-jr-landscape.jpg"]
