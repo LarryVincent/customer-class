@@ -36,7 +36,7 @@ respectDoNotTrack = true
 useSessionStorage = true
 
 [privacy.twitter]
-enableDNT = true
+enableDNT = false
 
 [privacy.youtube]
 privacyEnhanced = true
