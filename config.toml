@@ -26,7 +26,7 @@ authorIcon = "lv-signature-circle.png"
 description = "A podcast from The Findings report about the people every business must find and keep."
 images = ["/images/tcc-cover-art.png"]
 titleEmoji = ":tada:"
-twitter = "@lvincent"
+twitter = "lvincent"
 mainSections = ["course"]
 gtm_id = "GTM-W8RXX28"
 
@@ -45,5 +45,5 @@ privacyEnhanced = true
 category = "categories"
 tag = "tags"
 
-[social]
+[Social]
 twitter = "customerclass"
