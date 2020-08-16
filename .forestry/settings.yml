@@ -10,43 +10,13 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/videos
-  label: Videos
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/readings
-  label: Readings
-  create: all
-  match: "**/*"
-- type: directory
   path: content/podcasts
   label: Podcasts
   create: all
   match: "**/*"
 - type: directory
-  path: content/objectives
-  label: Objectives
-  create: all
-  match: "**/*"
-- type: directory
   path: content/legal
   label: Legal
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/assignments
-  label: Assignments
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/agendas
-  label: Agendas
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/action-items
-  label: Action items
   create: all
   match: "**/*"
 upload_dir: static/images
