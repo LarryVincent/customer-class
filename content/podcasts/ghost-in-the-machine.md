@@ -14,4 +14,4 @@ teaser = "Google’s Kevin Hartman discusses the required balance between humans
 title = "Ghost in the Machine"
 
 +++
-# Overview
+## Overview
