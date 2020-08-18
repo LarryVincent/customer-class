@@ -38,3 +38,5 @@ fields:
 - type: textarea
   name: rp_embed
   label: rp_embed
+pages:
+- content/podcasts/ghost-in-the-machine.md
