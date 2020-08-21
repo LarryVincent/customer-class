@@ -4,6 +4,11 @@
 			<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
 			<article class="container">
 				<div class="head-matter">
+					{{- with .Params.images -}}
+					    {{- $image := (index . 0) -}}
+						<img src="{{ $image }}" class="cover-image">
+					{{- end }}
+					
 					{{ with .Params.pre_head }}<p class="single-pre">{{ . }}</p>{{ end }}
 					<h1>{{ .Title }}</h1>
 					{{ if (not (isset .Params "show_social")) | or (eq .Params.show_social true )}}
@@ -17,7 +22,13 @@
 				{{ $pods := where $.Site.RegularPages "Section" "podcasts"}}
 				{{ range $pods }}
 				<div class="podcast-summary">
-					<h3>{{ .Title }}</h3>
+					
+					{{- with .Params.images -}}
+					    {{- $image := (index . 0) -}}
+						<img src="{{ $image }}" class="cover-image">
+					{{- end }}
+					
+					<a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
 					<p>{{ .Params.teaser }}</p>
 					<iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-forms" scrolling=no width="100%" height="185" frameborder="0" src="{{ .Params.rp_embed }}"></iframe>
 				</div>

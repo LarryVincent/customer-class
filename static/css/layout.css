@@ -527,5 +527,28 @@ h3.syllabus-assign-heading {
 }
 
 .podcast-summary {
+	padding: 2em 0;
 }
 
+.podcast-summary img {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid rgba(125,125,125,.2);
+}
+
+.podcast-summary a h3 {
+	font-size: 2em;
+	text-align: center;
+}
+
+.podcast-summary p {
+	text-align: center;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.cover-image {
+	max-width: 500px;
+	display: block;
+	margin: 0 auto;
+}

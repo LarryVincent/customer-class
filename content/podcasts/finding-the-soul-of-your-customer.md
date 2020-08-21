@@ -9,7 +9,7 @@ guest = "Julie Rice"
 title = "Finding the Soul of Your Customers"
 keywords = ["marketing", "customers", "soulcycle", "insights"]
 description = "SoulCycle co-founder Julie Rice sets the stage on the value of a great customer experience and shares insights many managers overlook."
-images = ["/images/cover-jr-landscape.jpg"]
+images = ["/images/ep1art.png"]
 rp_embed = "https://embed.radiopublic.com/e?if=the-customer-class-GAV0rN&ge=s1!b1ad16638a97f295782831ca1fe333631a7f3373"
 +++
 

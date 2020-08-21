@@ -4,6 +4,11 @@
 			<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
 			<article class="container">
 				<div class="head-matter">
+					{{- with .Params.images -}}
+					    {{- $image := (index . 0) -}}
+						<img src="{{ $image }}" class="cover-image">
+					{{- end }}
+					
 					{{ with .Params.pre_head }}<p class="single-pre">{{ . }}</p>{{ end }}
 					<h1>{{ .Title }}</h1>
 					{{ if (not (isset .Params "show_social")) | or (eq .Params.show_social true )}}
