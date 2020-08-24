@@ -3,7 +3,7 @@ content_indicator = "fal fa-headphones-alt"
 content_type = "Listen"
 date = 2020-08-24T07:00:00Z
 description = "Google’s Kevin Hartman discusses the required balance between humans and machines in developing customer insights."
-draft = true
+draft = false
 guest = "Kevin Hartman"
 images = ["/images/ep2art.png"]
 keywords = ["Analytics", "Automation", "Machine Learning", "Marketing", "Google"]
@@ -29,7 +29,7 @@ Kevin Hartman is a devoted and artistic practitioner of data. He believes data m
 
 As Director Of Analytics for Google's Consumer, Government & Entertainment sector, Kevin and his team partner with major advertisers, creative agencies, and media companies to develop digital solutions that build businesses and brands. His approach mixes science and art to deliver inventive, fact-based strategies that reduce uncertainty and increase effectiveness in the marketing and advertising programs they create.
 
-His book [Digital Marketing Analytics: In Theory and in Practice](https://www.amazon.com/Digital-Marketing-Analytics-Practice-Version/dp/B087L31F2V/ref=sr_1_2?dchild=1&keywords=kevin+hartman&qid=1598038820&sr=8-2) was released in 2020. It provides the context, perspective, and information needed to make analytics accessible to people who understand its reach and relevance and want to learn more.
+His book *[Digital Marketing Analytics: In Theory and in Practice](https://www.amazon.com/Digital-Marketing-Analytics-Practice-Version/dp/B087L31F2V/ref=sr_1_2?dchild=1&keywords=kevin+hartman&qid=1598038820&sr=8-2)* was released in 2020. It provides the context, perspective, and information needed to make analytics accessible to people who understand its reach and relevance and want to learn more.
 
 ## The Door Study
 
