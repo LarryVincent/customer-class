@@ -8,7 +8,7 @@ guest = "Kevin Hartman"
 images = ["/images/ep2art.png"]
 keywords = ["Analytics", "Automation", "Machine Learning", "Marketing", "Google"]
 pre_head = "Episode 02"
-rp_embed = ""
+rp_embed = "https://embed.radiopublic.com/e?if=the-customer-class-GAV0rN&ge=s1!ad1624d70eed2f65391df3fac428f02c709e04f0"
 tags = []
 teaser = "Google’s Kevin Hartman discusses the required balance between humans and machines in developing customer insights."
 title = "Ghost in the Machine"
@@ -39,10 +39,9 @@ We reference "The Door Study" in the episode, an example Kevin includes in his b
 
 ## Music
 
-- *[88 on Me](https://www.marmosetmusic.com/browse/48113-88-on-me-instrumental)* by Kevin J. Simon
-- *[An Answer](https://www.marmosetmusic.com/browse/3251-an-answer-instrumental)* by Michael Charles Smith
-- *[State Lines](https://www.marmosetmusic.com/browse/42099-state-lines-instrumental)* by JB Lucas
-- *[Vince's Inspiration](https://www.marmosetmusic.com/browse/70923-vince-s-inspiration-instrumental)* by Jordan Taylor Roach
+- *[Cement 3 No Solo](https://www.marmosetmusic.com/browse/3259-cement-3-no-solo-instrumental)* by Michael Charles Smith
+- *[Peach Pie](https://www.marmosetmusic.com/browse/2926-peach-pie-instrumental)* by Lee Brooks
+- *[Shattered Hopes and Dreams](https://www.marmosetmusic.com/browse/59464-shattered-hopes-and-dreams-instrumental)* by Jeff Whitcher
 
 _The Customer Class_ theme (Face of Pain) is by [Michael Charles Smith](https://www.marmosetmusic.com/artists/michael-charles-smith)
 

@@ -10,9 +10,12 @@
 					<div class="podcast-summary">
 					{{ with .Params.pre_head }}<p class="single-pre">{{ . }}</p>{{ end }}
 					<h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+					{{ $permalink := .Permalink }}
 					{{ if .Params.images }}
 					{{ $image := index ( .Params.images ) 0 }}
+					<a href="{{ $permalink }}">
 					<img src="{{ $image }}">
+					</a>
 					{{ end }}
 					<p style="padding-top: 36px;">{{ .Params.teaser }}</p>
 					<a href="{{ .Permalink }}"><p class="follow">Read episode details<i class="fal fa-arrow-square-right"></i></p></a>

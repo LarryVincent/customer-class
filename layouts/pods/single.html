@@ -4,9 +4,12 @@
 			<img class="hero-image" {{ with .Params.cover_image }}src="/images/{{ . }}" {{ end }} />
 			<article class="container">
 				<div class="head-matter">
+					{{ $permalink := .Permalink }}
 					{{- with .Params.images -}}
+					<a href="{{ $permalink }}">
 					    {{- $image := (index . 0) -}}
 						<img src="{{ $image }}" class="cover-image">
+						</a>
 					{{- end }}
 					
 					{{ with .Params.pre_head }}<p class="single-pre">{{ . }}</p>{{ end }}
@@ -22,10 +25,12 @@
 				{{ $pods := where $.Site.RegularPages "Section" "podcasts"}}
 				{{ range $pods }}
 				<div class="podcast-summary">
-					
+					{{ $permalink := .Permalink }}					
 					{{- with .Params.images -}}
 					    {{- $image := (index . 0) -}}
+					<a href="{{ $permalink }}">
 						<img src="{{ $image }}" class="cover-image">
+						</a>
 					{{- end }}
 					
 					<a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
