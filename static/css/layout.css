@@ -15,6 +15,49 @@
 	margin: 0 auto;
 }
 
+.band {
+	width: 90%;
+	max-width: 1240px;
+	margin: 0 auto;
+
+	display: grid;
+	
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-gap: 20px;
+		
+}
+
+@media (min-width: 30em) {
+	.band {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 60em) {
+	.band {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.card {
+	background: white;
+	text-decoration: none;
+	color: #444;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.card article {
+	padding: 20px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .slot {
 	display: flex;
 }
@@ -533,7 +576,6 @@ h3.syllabus-assign-heading {
 .podcast-summary img {
 	display: block;
 	margin: 0 auto;
-	border: 1px solid rgba(125,125,125,.2);
 }
 
 .podcast-summary a h3 {

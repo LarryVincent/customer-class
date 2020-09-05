@@ -1,29 +1,26 @@
 {{ define "main" }}
 	<div class="bg">
 		<section>
-			<article class="container">
-				<div class="head-matter">
-					<div class="main-content">
+			<div class="band">
 					{{ .Content }}
-					{{ $pods := where $.Site.RegularPages "Section" "podcasts"}}
-					{{ range first 1 $pods }}
+					{{ $pods := (where $.Site.RegularPages "Section" "podcasts").Reverse }}
+					{{ range $pods }}
 					<div class="podcast-summary">
+						<a href="{{ .RelPermalink }}" class="card">
+							<article>
 					{{ with .Params.pre_head }}<p class="single-pre">{{ . }}</p>{{ end }}
-					<h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+					<h1>{{ .Title }}</h1>
 					{{ $permalink := .Permalink }}
 					{{ if .Params.images }}
 					{{ $image := index ( .Params.images ) 0 }}
-					<a href="{{ $permalink }}">
 					<img src="{{ $image }}">
-					</a>
 					{{ end }}
 					<p style="padding-top: 36px;">{{ .Params.teaser }}</p>
-					<a href="{{ .Permalink }}"><p class="follow">Read episode details<i class="fal fa-arrow-square-right"></i></p></a>
-					<iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-forms" scrolling=no width="100%" height="185" frameborder="0" src="{{ .Params.rp_embed }}"></iframe>
-				</div>
-				{{ end }}
+				</article>
+					</a>
+					</div>
+					{{ end }}
 			</div>
-			</article>
 		</section>
 	</div>
 {{ end }}
