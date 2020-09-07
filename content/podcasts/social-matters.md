@@ -15,7 +15,7 @@ teaser = "Activision Blizzard's	 Beverly Jackson provides perspective on how to 
 
 ## Overview
 
-Data is everywhere. The trick is knowing what to do with it to drive successful customer outcomes. Kevin Hartman, Director of Google Analytics, shares insights on the art of finding and interpreting the right customer data.
+Social media has become one of the most important communications channels for many businesses. But the strategies to connect it to the heart of your customer relationship management system often come up short. Veteran social media strategist, Beverly Jackson, joins us to provide perspective and much needed advice.
 
 {{% pod-module %}}
 
