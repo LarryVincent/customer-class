@@ -3,12 +3,12 @@ content_indicator = "fal fa-headphones-alt"
 content_type = "Listen"
 title = "Social Matters"
 description = "Activision Blizzard's Beverly Jackson provides perspective on how to use social media to acquire and develop customers."
-date = 2020-09-07T08:03:29-07:00
+date = 2020-09-07T06:03:29-07:00
 guest = "Beverly Jackson"
 images = ["/images/ep3art.png"]
 keywords = ["Social Media", "Marketing", "Activision"]
 pre_head = "Episode 03"
-rp_embed = ""
+rp_embed = "https://embed.radiopublic.com/e?if=the-customer-class-GAV0rN&ge=s1!4faa55fbe3a00cefad4f26b864d24b797ed6562c"
 tags = ["socia media", "acquisition"]
 teaser = "Activision Blizzard's	 Beverly Jackson provides perspective on how to use social media to acquire and develop customers."
 +++
