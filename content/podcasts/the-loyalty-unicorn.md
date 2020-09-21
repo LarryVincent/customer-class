@@ -2,7 +2,7 @@
 content_indicator = "fal fa-headphones-alt"
 content_type = "Listen"
 title = "The Loyalty Unicorn"
-description = "While some marketers complain that loyal customers are as rare as unicorns, Sandeep Dube of Delta Airlines argues that we may be in the golden era of customer loyalty."
+description = "While some marketers complain that loyal customers are as rare as unicorns, Sandeep Dube of Delta Air Lines argues that we may be in the golden era of customer loyalty."
 date = 2020-09-21T06:03:29-07:00
 guest = "Sandeep Dube"
 images = ["/images/ep4art.png"]
@@ -10,7 +10,7 @@ keywords = ["Customer Loyalty", "Marketing", "Retention", "Loyalty", "Delta Airl
 pre_head = "Episode 04"
 rp_embed = "https://embed.radiopublic.com/e?if=the-customer-class-GAV0rN&ge=s1!0d5bca2d90a9b66aa9649555878f19638b4e6cdc"
 tags = ["loyalty", "retention"]
-teaser = "While some marketers complain that loyal customers are as rare as unicorns, Sandeep Dube of Delta Airlines argues that we may be in the golden era of customer loyalty."
+teaser = "While some marketers complain that loyal customers are as rare as unicorns, Sandeep Dube of Delta Air Lines argues that we may be in the golden era of customer loyalty."
 +++
 
 ## Overview
@@ -21,7 +21,7 @@ But customer loyalty has also become the source of much debate. Always-on techno
 
 Is customer loyalty still achievable?
 
-To answer this question, we interview Sandeep Dube of [Delta Airlines](https://www.delta.com). As head of Delta's extremely successful SkyMiles loyalty program, he offers a rich perspective on how managers should think about loyalty and retention in modern marketing.
+To answer this question, we interview Sandeep Dube of [Delta Air Lines](https://www.delta.com). As head of Delta's extremely successful SkyMiles loyalty program, he offers a rich perspective on how managers should think about loyalty and retention in modern marketing.
 
 {{% pod-module %}}
 
