@@ -8,7 +8,7 @@ guest = "Sandeep Dube"
 images = ["/images/ep4art.png"]
 keywords = ["Customer Loyalty", "Marketing", "Retention", "Loyalty", "Delta Airlines"]
 pre_head = "Episode 04"
-rp_embed = "https://embed.radiopublic.com/e?if=the-customer-class-GAV0rN&ge=s1!0d5bca2d90a9b66aa9649555878f19638b4e6cdc">
+rp_embed = "https://embed.radiopublic.com/e?if=the-customer-class-GAV0rN&ge=s1!0d5bca2d90a9b66aa9649555878f19638b4e6cdc"
 tags = ["loyalty", "retention"]
 teaser = "While some marketers complain that loyal customers are as rare as unicorns, Sandeep Dube of Delta Airlines argues that we may be in the golden era of customer loyalty."
 +++
