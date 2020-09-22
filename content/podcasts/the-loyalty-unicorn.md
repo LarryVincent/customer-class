@@ -30,7 +30,7 @@ To answer this question, we interview Sandeep Dube of [Delta Air Lines](https://
 
 ![Sandeep Dube](/images/sandeep-dube.jpg)
 
-Sandeep Dube is the Senior Vice President — Customer Engagement & Loyalty for Delta Air Lines, and CEO — Delta Vacations. He is responsible for the airline’s SkyMiles loyalty program, Delta Sky Clubs, the airline’s industry-leading partnerships with companies like American Express, Airbnb and Lyft, and Delta Vacations. Additionally, he leads Consumer Insight, which serves as a shared service function to the organization.
+Sandeep Dube is the Senior Vice President — Customer Engagement & Loyalty for Delta Air Lines, and CEO — Delta Vacations. He is responsible for the airline’s Digital Strategy, SkyMiles loyalty program, Delta Sky Clubs, Delta Vacations, and Delta's industry-leading partnerships with companies like American Express, Airbnb and Lyft.
 
 Sandeep has deep expertise in leading marketing and commercial organizations, having spent over a decade in the consumer lending and technology industries in consumer marketing and business strategy roles before joining Delta in 2015.
 
