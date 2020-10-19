@@ -8,7 +8,7 @@ guest = "Christine Mauro"
 images = ["/images/ep6art.png"]
 keywords = ["Marketing", "Innovation", "Simplification", "Salesforce", "Customers"]
 pre_head = "Episode 06"
-rp_embed = "https://embed.radiopublic.com/e?if=the-customer-class-GAV0rN&ge=s1!056efcce0982858066d2eb0305623de4b75cd745"
+rp_embed = "https://embed.radiopublic.com/e?if=the-customer-class-GAV0rN&ge=s1!76d6fd978f691c6b47fbd012e542256746773731"
 tags = ["Innovation", "Simplicity"]
 teaser = "Innovation gets a lot of press in the service of new products, but it is also a critical means to improving customer experiences and customer profitability. Christine Mauro, Director of Innovation at Saleforce shares insight on how to innovate through simplification."
 +++
